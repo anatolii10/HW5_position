@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #D1D1D1;
+	width: 1280px;
+	height: 100vh;
+	margin: 0 auto;
+	font-family: Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+header {
+	height: 300px;
+}
+main {
+	width: 1280px;
+	background-color: #FFF;
+}
+
+section {
+	margin: 0 auto;
+	width: 910px;
+}
+
+section h3 {
+	text-align: center;
+	padding-top: 85px;
+}
+
+/**********************Карточки большие******************/
+.block2 img {
+	width: 430px;
+	height: 360px;
+}
+
+.gynecologist, .cleaning {
+	position: relative;
+	width: 430px;
+	height: 600px;
+	float: left;
+	margin-top: 63px;
+}
+
+.cleaning {
+	margin-left: 50px;
+}
+
+section p {
+	margin-top: 35px;
+}
+
+.sign_up1 {
+	position: absolute;
+	bottom: 15px;
+	width: 430px;
+	height: 75px;
+	background-color: #D65C4A;
+	color: #FEFBFD;
+	border: 0;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/********************Карточки маленькие**************/
+
+.block3 img {
+	width: 270px;
+	height: 360px;
+}
+
+.heart, .neurologist, .ultrasound {
+	position: relative;
+	float: left;
+	width: 270px;
+	height: 635px;
+	margin-top: 63px;
+
+}
+
+.neurologist, .ultrasound {
+	margin-left: 50px;
+}
+
+.sign_up2 {
+	position: absolute;
+	bottom: 15px;
+	width: 270px;
+	height: 75px;
+	background-color: #D65C4A;
+	color: #FEFBFD;
+	border: 0;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+/******************Обратная связь**********************/
+
+.clear {
+		clear: both;
+}
+
+.footer_click {
+	margin-top: 50px;
+	width: 910px;
+	height: 75px;
+	background-color: #D65C4A;
+	color: #FEFBFD;
+	border: 0;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+/***************************Footer********************/
+
+footer {
+	text-align: center;
+	color: #FFF;
+	margin-top: 50px;
+}
+
+footer a {
+	display: block;
+	margin: 20px 0 20px 0;
+	color: #fff;
+}
